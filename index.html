@@ -2,7 +2,6 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Agendamento quadra</title>
   <link rel="stylesheet" href="styles.css">
 </head>
@@ -12,10 +11,17 @@
     <div class="bg-blur"></div>
 
     <div class="container">
-      <div class="retangulo"></div>
-      <div class="retangulo"></div>
+      <!-- ESQUERDA -->
+      <div class="retangulo" id="campo1"></div>
+
+      <!-- MEIO (confirmação) -->
+      <div class="retangulo" id="campo2"></div>
+
+      <!-- DIREITA (reservas) -->
+      <div class="retangulo" id="campo3"></div>
     </div>
   </div>
 
+  <script src="script.js"></script>
 </body>
 </html>
