@@ -28,6 +28,3 @@ Porém, nesta versão, não há integração com banco de dados, sendo apenas a 
 - CSS3
 
 ---
-
-## 👨‍💻 Projeto Acadêmico
-Projeto desenvolvido para a disciplina de Web Front-End.
