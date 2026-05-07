@@ -13,6 +13,7 @@ Agendar partidas
 Tela de login
 Tela de cadastro
 Interface simples e responsiva
+
 🛠️ Tecnologias Utilizadas
 HTML
 CSS
