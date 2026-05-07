@@ -10,76 +10,173 @@
 
 <body>
 
-<!-- FUNDO -->
-<div class="background"></div>
+    <!-- FUNDO -->
+    <div class="background"></div>
 
-<!-- HEADER -->
-<header class="header">
-    <h1 id="logo">
-        <img src="icones/Logo.svg" alt="Logo FutCampos">
-        FutCampos
-    </h1>
+    <!-- CABEÇALHO -->
+    <header class="header">
 
-    <nav class="menu">
-        <a href="#">Início</a>
-        <a href="#">Campos</a>
-        <a href="#">Horários</a>
-        <a href="#">Login</a>
-    </nav>
-</header>
+        <h1 id="logo">
+            <img src="icones/Logo.svg" alt="Logo FutCampos">
+            FutCampos
+        </h1>
 
-<!-- CONTEÚDO PRINCIPAL -->
-<main>
+        <!-- MENU DE NAVEGAÇÃO -->
+        <nav class="menu">
+            <a href="#">Início</a>
+            <a href="#">Campos</a>
+            <a href="#">Horários</a>
+            <a href="#">Login</a>
+        </nav>
 
-    <!-- HERO -->
-    <section class="hero">
-        <h2>Reserve seu campo society com facilidade</h2>
-        <p>Escolha o campo, data e horário em poucos cliques.</p>
-        <button>Agendar agora</button>
-    </section>
+    </header>
 
-    <!-- CAMPOS -->
-    <section class="campos">
-        <h2>
-            <img src="icones/Campos.svg" alt="Campos disponíveis">
-            Campos disponíveis
-        </h2>
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main>
 
-        <div class="cards-container">
+        <!-- HERO -->
+        <section class="hero">
 
-            <div class="card">
-                <img src="imagens/CampoCentral.jpg" alt="Campo Central com grama sintética">
-                <h3>Campo Central</h3>
-                <p>Grama sintética e iluminação noturna.</p>
-                <a href="#">Ver horários</a>
+            <h2>Reserve seu campo society com facilidade</h2>
+
+            <p>
+                Escolha o campo, data e horário em poucos cliques.
+            </p>
+
+            <button>Agendar agora</button>
+
+        </section>
+
+        <!-- CAMPOS -->
+        <section class="campos">
+
+            <h2>
+                <img src="icones/Campos.svg" alt="Campos disponíveis">
+                Campos disponíveis
+            </h2>
+
+            <!-- CONTAINER DOS CARDS -->
+            <div class="cards-container">
+
+                <!-- CARD 1 -->
+                <article class="card">
+
+                    <img src="imagens/CampoCentral.jpg"
+                         alt="Campo Central com grama sintética">
+
+                    <h3>Campo Central</h3>
+
+                    <p>
+                        Grama sintética e iluminação noturna.
+                    </p>
+
+                    <a href="#">Ver horários</a>
+
+                </article>
+
+                <!-- CARD 2 -->
+                <article class="card">
+
+                    <img src="imagens/ArenaNorte.jpg"
+                         alt="Arena Norte para jogos com amigos">
+
+                    <h3>Arena Norte</h3>
+
+                    <p>
+                        Ideal para jogos com amigos.
+                    </p>
+
+                    <a href="#">Ver horários</a>
+
+                </article>
+
+                <!-- CARD 3 -->
+                <article class="card">
+
+                    <img src="imagens/SocietyPro.jpg"
+                         alt="Campo Society Pro com estacionamento">
+
+                    <h3>Society Pro</h3>
+
+                    <p>
+                        Estrutura completa e estacionamento.
+                    </p>
+
+                    <a href="#">Ver horários</a>
+
+                </article>
+
+                <!-- CARD 4 -->
+                <article class="card">
+
+                    <img src="imagens/CampoLeste.jpg"
+                         alt="Campo Leste para jogos de futebol society">
+
+                    <h3>Campo Leste</h3>
+
+                    <p>
+                        Perfeito para jogos rápidos.
+                    </p>
+
+                    <a href="#">Ver horários</a>
+
+                </article>
+
             </div>
 
-            <div class="card">
-                <img src="imagens/ArenaNorte.jpg" alt="Arena Norte para jogos com amigos">
-                <h3>Arena Norte</h3>
-                <p>Ideal para jogos com amigos.</p>
-                <a href="#">Ver horários</a>
+        </section>
+
+                <!-- HORÁRIOS -->
+        <section class="horarios">
+
+            <h2>
+                <img src="icones/Horarios.svg" alt="Horários De Agendamento">
+                Horários De Agendamento
+            </h2>
+
+            <div class="horarios-container">
+
+                <article class="horario-card">
+                    <h3>Segunda a Sexta</h3>
+
+                    <p>18:00 - 19:00</p>
+                    <p>19:00 - 20:00</p>
+                    <p>20:00 - 21:00</p>
+                </article>
+
+                <article class="horario-card">
+                    <h3>Sábado</h3>
+
+                    <p>08:00 - 09:00</p>
+                    <p>09:00 - 10:00</p>
+                    <p>10:00 - 11:00</p>
+                    <p>11:00 - 12:00</p>
+                    <p>13:00 - 14:00</p>
+                    <p>14:00 - 15:00</p>
+                    <p>15:00 - 16:00</p>
+                    <p>16:00 - 17:00</p>
+                    <p>17:00 - 18:00</p>
+                </article>
+
+                <article class="horario-card">
+                    <h3>Domingo</h3>
+
+                    <p>08:00 - 09:00</p>
+                    <p>09:00 - 10:00</p>
+                    <p>10:00 - 11:00</p>
+                    <p>11:00 - 12:00</p>
+                    <p>13:00 - 14:00</p>
+                    <p>14:00 - 15:00</p>
+                    <p>15:00 - 16:00</p>
+                    <p>16:00 - 17:00</p>
+                    <p>17:00 - 18:00</p>
+                </article>
+
             </div>
 
-            <div class="card">
-                <img src="imagens/SocietyPro.jpg" alt="Campo Society Pro com estacionamento">
-                <h3>Society Pro</h3>
-                <p>Estrutura completa e estacionamento.</p>
-                <a href="#">Ver horários</a>
-            </div>
+        </section>
 
-            <!-- NOVO CARD -->
-           <div class="card">
-                <img src="imagens/CampoLeste.jpg" alt="Campo society simples">
-                <h3>Campo Leste</h3>
-                <p>Perfeito para jogos rápidos.</p>
-                <a href="#">Ver horários</a>
-            </div>
-
-        </div>
-    </section>
-
-</main>
+    </main>
 
 </body>
 </html>
