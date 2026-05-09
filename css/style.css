@@ -11,7 +11,21 @@
 /* BODY */
 /* ===================== */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+
+/* ===================== */
+/* FONTES DOS TÍTULOS */
+/* ===================== */
+.hero h2,
+.campos h2,
+.horarios h2,
+.footer h2,
+.card h3,
+.horario-card h3,
+#logo {
+    font-family: 'Poppins', sans-serif;
 }
 
 /* ===================== */
@@ -116,6 +130,9 @@ body {
 .hero h2 {
     font-size: 36px;
     max-width: 600px;
+
+    font-weight: 700;
+    letter-spacing: 0.5px;
 }
 
 /* TEXTO */
