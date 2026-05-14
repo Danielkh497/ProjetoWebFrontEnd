@@ -4,9 +4,13 @@
 
 O **FutCampos** é uma aplicação web desenvolvida como projeto prático da disciplina de Programação Web Front-end.
 
-O sistema tem como objetivo facilitar o agendamento de campos society da comunidade, permitindo que usuários visualizem campos disponíveis, consultem horários e realizem reservas de forma simples e intuitiva.
+A proposta do sistema surgiu a partir da observação de que muitos campos society ainda utilizam métodos manuais, rudimentares ou pouco eficientes para realizar agendamentos, como anotações em papel, mensagens informais ou controle não centralizado.
 
-O projeto foi desenvolvido utilizando apenas **HTML5 e CSS3**, sem backend ou banco de dados, focando exclusivamente na construção da interface e experiência do usuário.
+Esses métodos podem gerar conflitos de horário, falta de organização e dificuldade na comunicação com os clientes.
+
+Diante disso, o FutCampos foi desenvolvido com o objetivo de modernizar esse processo, oferecendo uma interface simples e intuitiva para visualização de campos, consulta de horários e realização de agendamentos de forma mais organizada e eficiente.
+
+O projeto foi desenvolvido utilizando apenas **HTML5 e CSS3**, sem backend ou banco de dados, com foco na construção da interface e experiência do usuário.
 
 ---
 
@@ -49,7 +53,6 @@ FutCampos/
 
 - HTML5
 - CSS3
-- Google Fonts
 
 ---
 
