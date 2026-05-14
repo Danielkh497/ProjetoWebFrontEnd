@@ -64,7 +64,7 @@
         </div>
 
         <!-- FORMULÁRIO DE AGENDAMENTO -->
-        <form class="agendar-form" action="#">
+        <form class="agendar-form" action="index.html" method="get">
 
             <!-- ETAPA 1: CAMPO -->
             <section class="etapa">
@@ -77,64 +77,60 @@
                 <div class="campos-grid">
 
                     <!-- CAMPO 1 -->
-                    <!-- [IMAGEM SUGERIDA: foto frontal do campo ao entardecer com iluminação acesa, grama sintética verde viva] -->
-                    <label class="campo-card">
-                        <input type="radio" name="campo" value="central">
-                        <div class="campo-img-placeholder">
-                            <span class="img-titulo">Campo Central</span>
-                            <span>foto frontal · iluminação noturna</span>
-                        </div>
-                        <div class="campo-info">
-                            <strong>Campo Central</strong>
-                            <span>Grama sintética · Iluminação noturna</span>
-                        </div>
-                        <span class="check-badge">✓</span>
-                    </label>
+                        <label class="campo-card">
+                            <input type="radio" name="campo" value="central">
+
+                            <img src="imagens/CampoCentral.jpg" alt="Campo Central" class="campo-img">
+
+                            <div class="campo-info">
+                                <strong>Campo Central</strong>
+                                <span>Grama sintética · Iluminação noturna</span>
+                            </div>
+
+                            <span class="check-badge">✓</span>
+                        </label>
 
                     <!-- CAMPO 2 -->
-                    <!-- [IMAGEM SUGERIDA: foto lateral do campo mostrando os dois gols, com torcedores ou amigos ao redor] -->
-                    <label class="campo-card">
-                        <input type="radio" name="campo" value="arena-norte">
-                        <div class="campo-img-placeholder">
-                            <span class="img-titulo">Arena Norte</span>
-                            <span>foto lateral · vista dos gols</span>
-                        </div>
-                        <div class="campo-info">
-                            <strong>Arena Norte</strong>
-                            <span>Ideal para jogos com amigos</span>
-                        </div>
-                        <span class="check-badge">✓</span>
-                    </label>
+                        <label class="campo-card">
+                            <input type="radio" name="campo" value="central">
+
+                            <img src="imagens/ArenaNorte.jpg" alt="Arena Norte" class="campo-img">
+
+                            <div class="campo-info">
+                                <strong>Arena Norte</strong>
+                                <span>Ideal para jogos com amigos</span>
+                            </div>
+
+                            <span class="check-badge">✓</span>
+                        </label>
 
                     <!-- CAMPO 3 -->
-                    <!-- [IMAGEM SUGERIDA: foto ampla mostrando o campo, vestiário e estacionamento ao fundo, em dia de sol] -->
-                    <label class="campo-card">
-                        <input type="radio" name="campo" value="society-pro">
-                        <div class="campo-img-placeholder">
-                            <span class="img-titulo">Society Pro</span>
-                            <span>foto ampla · estrutura completa</span>
-                        </div>
-                        <div class="campo-info">
-                            <strong>Society Pro</strong>
-                            <span>Estrutura completa · Estacionamento</span>
-                        </div>
-                        <span class="check-badge">✓</span>
-                    </label>
+                        <label class="campo-card">
+                            <input type="radio" name="campo" value="central">
+
+                            <img src="imagens/SocietyPro.jpg" alt="Society Pro" class="campo-img">
+
+                            <div class="campo-info">
+                                <strong>Society Pro</strong>
+                                <span>Estrutura completa · Estacionamento</span>
+                            </div>
+
+                            <span class="check-badge">✓</span>
+                        </label>
 
                     <!-- CAMPO 4 -->
-                    <!-- [IMAGEM SUGERIDA: foto aérea do campo com grama bem cuidada e céu azul ao fundo] -->
-                    <label class="campo-card">
-                        <input type="radio" name="campo" value="campo-leste">
-                        <div class="campo-img-placeholder">
-                            <span class="img-titulo">Campo Leste</span>
-                            <span>foto aérea · grama natural</span>
-                        </div>
-                        <div class="campo-info">
-                            <strong>Campo Leste</strong>
-                            <span>Perfeito para jogos rápidos</span>
-                        </div>
-                        <span class="check-badge">✓</span>
-                    </label>
+                        <label class="campo-card">
+                            <input type="radio" name="campo" value="central">
+
+                            <img src="imagens/CampoLeste.jpg" alt="Campo Leste" class="campo-img">
+
+                            <div class="campo-info">
+                                <strong>Campo Leste</strong>
+                                <span>Perfeito para jogos rápidos</span>
+                            </div>
+
+                            <span class="check-badge">✓</span>
+                        </label>
 
                 </div>
 
@@ -307,11 +303,10 @@
                         <span class="resumo-valor">— preencha seus dados —</span>
                     </div>
 
-                    <button type="submit"
-                            class="btn-confirmar">
+                    <button type="submit" class="btn-confirmar">
                         Confirmar Agendamento
+   
                     </button>
-
                 </div>
 
             </section>
