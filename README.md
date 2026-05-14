@@ -68,9 +68,9 @@ Este projeto foi desenvolvido com o objetivo de aplicar conhecimentos de:
 
 ## 👥 Integrantes
 
-- Nome 1  
-- Nome 2  
-- Nome 3  
+- 👤 Danielkh497 — [GitHub](https://github.com/Danielkh497)
+- 👤 LuBruck — [GitHub](https://github.com/LuBruck)
+- 👤 YaronBuchler — [GitHub](https://github.com/YaronBuchler)
 
 ---
 
