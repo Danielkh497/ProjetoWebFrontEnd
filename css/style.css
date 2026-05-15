@@ -443,6 +443,46 @@ body {
     width: 22px;
     height: 22px;
 }
+/* ===================== */
+/* EQUIPE FOOTER */
+/* ===================== */
+.footer-equipe {
+    margin-top: 30px;
+}
+ 
+.footer-equipe h3 {
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+}
+ 
+.equipe-links {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+ 
+    flex-wrap: wrap;
+}
+ 
+.equipe-links a {
+    display: flex;
+    align-items: center;
+   
+ 
+    background: rgba(255, 255, 255, 0.08);
+ 
+    padding: 10px 18px;
+ 
+    border-radius: 10px;
+ 
+    transition: 0.3s;
+}
+ 
+.equipe-links a:hover {
+    transform: translateY(-3px);
+    background: rgba(255, 255, 255, 0.15);
+}
+ 
+
 html {
     scroll-behavior: smooth;
 }
