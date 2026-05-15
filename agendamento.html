@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Agende seu campo society no FutCampos.">
+
+    <title>Agendar Horário - FutCampos</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet"
+          href="css/agendamento.css">
+
+</head>
+
+<body>
+
+    <!-- FUNDO -->
+    <div class="background"></div>
+
+    <!-- CABEÇALHO -->
+    <header class="header">
+
+        <h1 id="logo">
+            <img src="icones/Logo.svg"
+                 alt="Logo FutCampos">
+            FutCampos
+        </h1>
+
+        <!-- MENU DE NAVEGAÇÃO -->
+        <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="index.html#campos">Campos</a>
+            <a href="index.html#horarios">Horários</a>
+            <a href="login.html">Login</a>
+        </nav>
+
+    </header>
+
+    <!-- CONTEÚDO PRINCIPAL -->
+    <main class="agendar-main">
+
+        <!-- TÍTULO DA PÁGINA -->
+        <div class="page-title">
+            <h2>Agendar Horário</h2>
+            <p>Preencha as etapas abaixo para reservar seu campo.</p>
+        </div>
+
+        <!-- FORMULÁRIO DE AGENDAMENTO -->
+        <form class="agendar-form" action="index.html" method="get">
+
+            <!-- ETAPA 1: CAMPO -->
+            <section class="etapa">
+
+                <div class="etapa-header">
+                    <span class="etapa-num">1</span>
+                    <h3>Escolha o campo</h3>
+                </div>
+
+                <div class="campos-grid">
+
+                    <!-- CAMPO 1 -->
+                        <label class="campo-card">
+                            <input type="radio" name="campo" value="central">
+
+                            <img src="imagens/CampoCentral.jpg" alt="Campo Central" class="campo-img">
+
+                            <span class="campo-info">
+                                <strong>Campo Central</strong>
+                                <span>Grama sintética · Iluminação noturna</span>
+                            </span>
+
+                            <span class="check-badge">✓</span>
+                        </label>
+
+                    <!-- CAMPO 2 -->
+                        <label class="campo-card">
+                            <input type="radio" name="campo" value="central">
+
+                            <img src="imagens/ArenaNorte.jpg" alt="Arena Norte" class="campo-img">
+
+                            <span class="campo-info">
+                                <strong>Arena Norte</strong>
+                                <span>Ideal para jogos com amigos</span>
+                            </span>
+
+                            <span class="check-badge">✓</span>
+                        </label>
+
+                    <!-- CAMPO 3 -->
+                        <label class="campo-card">
+                            <input type="radio" name="campo" value="central">
+
+                            <img src="imagens/SocietyPro.jpg" alt="Society Pro" class="campo-img">
+
+                            <span class="campo-info">
+                                <strong>Society Pro</strong>
+                                <span>Estrutura completa · Estacionamento</span>
+                            </span>
+
+                            <span class="check-badge">✓</span>
+                        </label>
+
+                    <!-- CAMPO 4 -->
+                        <label class="campo-card">
+                            <input type="radio" name="campo" value="central">
+
+                            <img src="imagens/CampoLeste.jpg" alt="Campo Leste" class="campo-img">
+
+                            <span class="campo-info">
+                                <strong>Campo Leste</strong>
+                                <span>Perfeito para jogos rápidos</span>
+                            </span>
+
+                            <span class="check-badge">✓</span>
+                        </label>
+
+                </div>
+
+            </section>
+
+            <!-- ETAPA 2: DATA E HORÁRIO -->
+            <section class="etapa">
+
+                <div class="etapa-header">
+                    <span class="etapa-num">2</span>
+                    <h3>Escolha a data e o horário</h3>
+                </div>
+
+                <!-- DATA -->
+                <div class="input-group">
+                    <label for="data">Data</label>
+                    <input type="date"
+                           id="data"
+                           name="data"
+                           required>
+                </div>
+
+                <!-- HORÁRIOS -->
+                <div class="horarios-section">
+
+                    <span class="horarios-label">Horário disponível</span>
+
+                    <div class="horarios-grid">
+
+                        <label class="horario-label">
+                            <input type="radio" name="horario" value="08-09">
+                            <span class="horario-btn">08:00 – 09:00</span>
+                        </label>
+
+                        <label class="horario-label">
+                            <input type="radio" name="horario" value="09-10">
+                            <span class="horario-btn">09:00 – 10:00</span>
+                        </label>
+
+                        <label class="horario-label">
+                            <input type="radio" name="horario" value="10-11">
+                            <span class="horario-btn">10:00 – 11:00</span>
+                        </label>
+
+                        <label class="horario-label">
+                            <input type="radio" name="horario" value="11-12">
+                            <span class="horario-btn">11:00 – 12:00</span>
+                        </label>
+
+                        <label class="horario-label">
+                            <input type="radio" name="horario" value="13-14">
+                            <span class="horario-btn">13:00 – 14:00</span>
+                        </label>
+
+                        <label class="horario-label">
+                            <input type="radio" name="horario" value="14-15">
+                            <span class="horario-btn">14:00 – 15:00</span>
+                        </label>
+
+                        <label class="horario-label">
+                            <input type="radio" name="horario" value="15-16">
+                            <span class="horario-btn">15:00 – 16:00</span>
+                        </label>
+
+                        <label class="horario-label">
+                            <input type="radio" name="horario" value="16-17">
+                            <span class="horario-btn">16:00 – 17:00</span>
+                        </label>
+
+                        <label class="horario-label">
+                            <input type="radio" name="horario" value="17-18">
+                            <span class="horario-btn">17:00 – 18:00</span>
+                        </label>
+
+                        <label class="horario-label">
+                            <input type="radio" name="horario" value="18-19">
+                            <span class="horario-btn">18:00 – 19:00</span>
+                        </label>
+
+                        <label class="horario-label">
+                            <input type="radio" name="horario" value="19-20">
+                            <span class="horario-btn">19:00 – 20:00</span>
+                        </label>
+
+                        <label class="horario-label">
+                            <input type="radio" name="horario" value="20-21">
+                            <span class="horario-btn">20:00 – 21:00</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- ETAPA 3: DADOS -->
+            <section class="etapa">
+
+                <div class="etapa-header">
+                    <span class="etapa-num">3</span>
+                    <h3>Seus dados</h3>
+                </div>
+
+                <div class="dados-grid">
+
+                    <div class="input-group">
+                        <label for="nome">Nome completo</label>
+                        <input type="text"
+                               id="nome"
+                               name="nome"
+                               placeholder="Digite seu nome"
+                               required>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="telefone">WhatsApp</label>
+                        <input type="tel"
+                               id="telefone"
+                               name="telefone"
+                               placeholder="(00) 00000-0000"
+                               required>
+                    </div>
+
+                    <div class="input-group full-width">
+                        <label for="observacoes">
+                            Observações
+                            <span class="label-opcional">(opcional)</span>
+                        </label>
+                        <textarea id="observacoes"
+                                  name="observacoes"
+                                  placeholder="Ex: preciso de colete, vou levar bola..."></textarea>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <!-- ETAPA 4: RESUMO -->
+            <section class="etapa">
+
+                <div class="etapa-header">
+                    <span class="etapa-num">4</span>
+                    <h3>Resumo do agendamento</h3>
+                </div>
+
+                <div class="resumo-card">
+
+                    <div class="resumo-item">
+                        <span class="resumo-label">Campo</span>
+                        <span class="resumo-valor">— selecione um campo —</span>
+                    </div>
+
+                    <div class="resumo-item">
+                        <span class="resumo-label">Data</span>
+                        <span class="resumo-valor">— selecione uma data —</span>
+                    </div>
+
+                    <div class="resumo-item">
+                        <span class="resumo-label">Horário</span>
+                        <span class="resumo-valor">— selecione um horário —</span>
+                    </div>
+
+                    <div class="resumo-item">
+                        <span class="resumo-label">Nome</span>
+                        <span class="resumo-valor">— preencha seus dados —</span>
+                    </div>
+
+                    <div class="resumo-item">
+                        <span class="resumo-label">WhatsApp</span>
+                        <span class="resumo-valor">— preencha seus dados —</span>
+                    </div>
+
+                    <button type="submit" class="btn-confirmar">
+                        Confirmar Agendamento
+   
+                    </button>
+                </div>
+
+            </section>
+
+        </form>
+
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="footer">
+
+        <div class="footer-content">
+
+            <h3>FutCampos</h3>
+
+            <p>Facilitando o agendamento de campos society da comunidade.</p>
+
+            <div class="footer-links">
+                <a href="index.html">Início</a>
+                <a href="index.html#campos">Campos</a>
+                <a href="index.html#horarios">Horários</a>
+            </div>
+
+                        <!-- EQUIPE -->
+            <div class="footer-equipe">
+ 
+                <h3>Equipe</h3>
+ 
+                <div class="equipe-links">
+ 
+                    <a href="https://danielkh497.github.io/CurriculumVitae/"
+                       target="_blank">
+                        <span class="equipe-icone"></span>
+                        Daniel
+                    </a>
+ 
+                    <a href="https://lubruck.github.io/LucasBruck.github.io/"
+                       target="_blank">
+                        <span class="equipe-icone"></span>
+                        LucasBruck
+                    </a>
+ 
+                    <a href="https://yaronbuchler.github.io/curriculo/"
+                       target="_blank">
+                        <span class="equipe-icone"></span>
+                        Yaron 
+                    </a>
+ 
+                </div>
+ 
+            </div>
+            
+            <!-- CONTATO -->
+            <div class="footer-contato">
+
+                <h3>Contato</h3>
+
+                <div class="contato-links">
+
+                    <a href="https://wa.me/5543999999999"
+                       target="_blank">
+                        <img src="icones/Whatsapp.svg"
+                             alt="WhatsApp">
+                        WhatsApp
+                    </a>
+
+                    <a href="https://www.instagram.com"
+                       target="_blank">
+                        <img src="icones/Instagram.svg"
+                             alt="Instagram">
+                        Instagram
+                    </a>
+
+                </div>
+
+            </div>
+
+            <span class="copyright">
+                © 2026 FutCampos - Todos os direitos reservados.
+            </span>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
