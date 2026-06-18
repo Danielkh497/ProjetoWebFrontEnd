@@ -189,7 +189,7 @@ body {
 .cadastro-box p {
     text-align: center;
 
-    opacity: 0.8;
+    opacity: 0.9;
 
     margin-bottom: 5px;
 }
@@ -215,7 +215,7 @@ body {
 .input-group input {
     padding: 12px;
 
-    border: none;
+    border: 1.5px solid rgba(255, 255, 255, 0.45);
     border-radius: 8px;
 
     outline: none;
@@ -265,7 +265,7 @@ body {
 .cadastro-box a {
     color: #00ff88;
 
-    text-decoration: none;
+    text-decoration: underline;
 
     font-weight: bold;
 
@@ -322,7 +322,7 @@ body {
 .footer p {
     margin-top: 10px;
 
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 /* LINKS */
@@ -340,7 +340,7 @@ body {
 .footer a {
     color: #00ff88;
 
-    text-decoration: none;
+    text-decoration: underline;
 
     font-weight: bold;
 
@@ -357,7 +357,7 @@ body {
 
     margin-top: 30px;
 
-    opacity: 0.6;
+    opacity: 0.9;
 
     font-size: 14px;
 }
@@ -444,4 +444,20 @@ body {
     transform: translateY(-3px);
     background: rgba(255, 255, 255, 0.15);
 }
- 
+
+/* ===================== */
+/* FOCO VISÍVEL — 5.11.6 */
+/* ===================== */
+.menu a:focus-visible,
+.cadastro-box button:focus-visible,
+.cadastro-box a:focus-visible,
+.footer a:focus-visible {
+    outline: 3px solid #00ff88;
+    outline-offset: 3px;
+    border-radius: 3px;
+}
+
+.input-group input:focus-visible {
+    outline: 3px solid #00ff88;
+    outline-offset: 2px;
+}

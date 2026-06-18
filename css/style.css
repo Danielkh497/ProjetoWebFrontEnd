@@ -244,7 +244,7 @@ body {
 /* TEXTO */
 .card p {
     font-size: 14px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 /* LINK */
@@ -255,7 +255,7 @@ body {
     color: #00ff88;
 
     font-weight: bold;
-    text-decoration: none;
+    text-decoration: underline;
 }
 /* ===================== */
 /* HORÁRIOS */
@@ -360,7 +360,7 @@ body {
 .footer p {
     margin-top: 10px;
 
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 /* LINKS */
@@ -378,7 +378,7 @@ body {
 .footer a {
     color: #00ff88;
 
-    text-decoration: none;
+    text-decoration: underline;
 
     font-weight: bold;
 
@@ -395,7 +395,7 @@ body {
 
     margin-top: 30px;
 
-    opacity: 0.6;
+    opacity: 0.9;
 
     font-size: 14px;
 }
@@ -510,4 +510,16 @@ html {
 .btn-agendar:hover {
     transform: scale(1.05);
     background: #008f35;
+}
+
+/* ===================== */
+/* FOCO VISÍVEL — 5.11.6 */
+/* ===================== */
+.menu a:focus-visible,
+.btn-agendar:focus-visible,
+.card a:focus-visible,
+.footer a:focus-visible {
+    outline: 3px solid #00ff88;
+    outline-offset: 3px;
+    border-radius: 3px;
 }
