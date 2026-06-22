@@ -126,7 +126,7 @@ body {
 .page-title p {
     margin-top: 8px;
     font-size: 16px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 /* ===================== */
@@ -192,7 +192,7 @@ body {
 .campo-card {
     cursor: pointer;
     border-radius: 12px;
-    border: 2px solid transparent;
+    border: 2px solid rgba(255, 255, 255, 0.25);
     overflow: hidden;
 
     background: rgba(255, 255, 255, 0.06);
@@ -264,7 +264,7 @@ body {
 
 .campo-info span {
     font-size: 12px;
-    color: rgba(255, 255, 255, 0.6);
+    color: rgba(255, 255, 255, 0.9);
 }
 
 /* BADGE DE CONFIRMAÇÃO */
@@ -309,7 +309,7 @@ body {
 
 .label-opcional {
     font-weight: 400;
-    opacity: 0.55;
+    opacity: 0.9;
     font-size: 13px;
 }
 
@@ -317,7 +317,7 @@ body {
 .input-group textarea {
     padding: 12px;
 
-    border: 1px solid rgba(255, 255, 255, 0.12);
+    border: 1px solid rgba(255, 255, 255, 0.45);
     border-radius: 8px;
 
     background: rgba(255, 255, 255, 0.1);
@@ -395,7 +395,7 @@ body {
     font-size: 14px;
     font-family: 'Roboto', sans-serif;
 
-    border: 1px solid rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.35);
 
     transition: 0.2s;
     user-select: none;
@@ -431,7 +431,7 @@ body {
 .resumo-card {
     background: rgba(255, 255, 255, 0.05);
     border-radius: 12px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.35);
     padding: 24px;
 }
 
@@ -452,14 +452,14 @@ body {
 
 .resumo-label {
     font-size: 13px;
-    color: rgba(255, 255, 255, 0.55);
+    color: rgba(255, 255, 255, 0.9);
     font-weight: 500;
 }
 
 .resumo-valor {
     font-size: 14px;
     font-style: italic;
-    color: rgba(255, 255, 255, 0.45);
+    color: rgba(255, 255, 255, 0.85);
     text-align: right;
     max-width: 60%;
 }
@@ -529,7 +529,7 @@ body {
 
 .footer p {
     margin-top: 10px;
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .footer-links {
@@ -545,7 +545,7 @@ body {
 .footer a {
     color: #00ff88;
 
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: bold;
 
     transition: 0.2s;
@@ -559,7 +559,7 @@ body {
     display: block;
     margin-top: 30px;
 
-    opacity: 0.6;
+    opacity: 0.9;
     font-size: 14px;
 }
 
@@ -683,5 +683,22 @@ body {
 .equipe-links a:hover {
     transform: translateY(-3px);
     background: rgba(255, 255, 255, 0.15);
+}
+
+/* ===================== */
+/* FOCO VISÍVEL — 5.11.6 */
+/* ===================== */
+.menu a:focus-visible,
+.btn-confirmar:focus-visible,
+.footer a:focus-visible {
+    outline: 3px solid #00ff88;
+    outline-offset: 3px;
+    border-radius: 3px;
+}
+
+.input-group input:focus-visible,
+.input-group textarea:focus-visible {
+    outline: 3px solid #00ff88;
+    outline-offset: 2px;
 }
  
